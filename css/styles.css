@@ -25,6 +25,11 @@ body ul {
   padding: 1.5rem 0;
   margin: 0 auto;
 }
+@media (max-width: 425px) {
+  .inicio {
+    padding: 1.1rem;
+  }
+}
 .inicio-brand {
   color: #fff;
   font-size: 3rem;
@@ -34,6 +39,11 @@ body ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 425px) {
+  .inicio-navbar ul {
+    display: none;
+  }
 }
 .inicio-navbar ul li {
   margin: 0 1rem;
@@ -51,6 +61,11 @@ body ul {
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+@media (max-width: 425px) {
+  .inicio-social-media ul {
+    display: none;
+  }
 }
 .inicio-social-media ul li {
   margin: 0 1rem;
@@ -70,6 +85,11 @@ body ul {
   justify-content: space-between;
   padding: 0;
 }
+@media (max-width: 425px) {
+  .gallery {
+    flex-direction: column;
+  }
+}
 .gallery-card {
   width: 31%;
   height: 400px;
@@ -79,6 +99,12 @@ body ul {
   justify-content: center;
   flex-direction: column;
   color: #fff;
+}
+@media (max-width: 425px) {
+  .gallery-card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
 }
 .gallery-card-title {
   font-size: 2rem;
