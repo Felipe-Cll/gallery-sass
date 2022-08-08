@@ -1,6 +1,6 @@
 <h1 align="center">🖼 Galeria</h1>
 <p align="center">
-  <img src="#">
+  <img src="/assets/img/galleryG.gif">
 </p>
 
 ## :books: Informações
